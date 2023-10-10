@@ -1,0 +1,23 @@
+.sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.sections img{
+    opacity: 0.9;
+    transition: ease-in-out 0.5s;
+}
+
+.sections img:hover{
+    opacity: 1;
+}
+
+
+@media (max-width:650px){
+    .sections{
+      display: inline-block;
+    }
+
+  }

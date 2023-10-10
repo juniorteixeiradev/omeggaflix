@@ -1,9 +1,15 @@
 import styles from "./Container.module.css";
-function Container(){
+function Container({ children }){
     return(
-        <div className={styles.container}></div>
+        <section className={styles.container}>
+            {children}
+        </section>
     );
 
 }
 
 export default Container;
+
+//Tudo o que tiver dentro da tag container la no App.js
+//sera passado via parametro {children}
+// sao chamados de props children
