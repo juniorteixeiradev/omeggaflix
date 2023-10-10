@@ -17,7 +17,7 @@
 
 @media (max-width:650px){
     .sections{
-      display: inline-block;
+      flex-direction: column;
     }
 
   }

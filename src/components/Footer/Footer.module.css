@@ -8,11 +8,3 @@
     justify-content: center;
     color: #fff;
 }
-
-@media (max-width:650px){
-    .footer{
-      position:fixed;
-      
-    }
-
-  }

@@ -35,6 +35,7 @@ function App() {
         <Card urlFilme="gcP9v18Oxk0" movieName="Interestellar 2014"/>
         <Card urlFilme="gcP9v18Oxk0" movieName="Interestellar 2014"/>
       </Sections>
+      
     </Container>
     <Footer />
     </>
